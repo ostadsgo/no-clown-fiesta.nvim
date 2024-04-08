@@ -6,9 +6,9 @@ local DEFAULT = {
     comments = {},
     functions = {},
     keywords = {},
-    lsp = { underline = true },
+    lsp = { underline = false },
     match_paren = {},
-    type = { bold = true },
+    type = { bold = false },
     variables = {},
   },
 }
