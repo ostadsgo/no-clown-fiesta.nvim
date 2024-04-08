@@ -111,7 +111,7 @@ function M.highlight(palette, opts)
     Repeat = { fg = palette.gray_blue },
     Label = { fg = palette.white },
     Exception = { fg = palette.red },
-    Include = { fg = palette.red },
+    Include = { fg = palette.gray_blue },
     PreProc = { fg = palette.white },
     Define = { fg = palette.red },
     Macro = { fg = palette.cyan },

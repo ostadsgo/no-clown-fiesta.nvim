@@ -58,7 +58,7 @@ function M.highlight(palette, opts)
     ["@number.float"] = { fg = palette.red },
     ["@operator"] = { fg = palette.white },
     ["@property"] = { fg = palette.white },
-    ["@punctuation.bracket"] = { fg = palette.white },
+    ["@punctuation.bracket"] = { fg = palette.gray },
     ["@punctuation.delimiter"] = { fg = palette.white },
     ["@string"] = { fg = palette.medium_gray_blue },
     ["@string.escape"] = { fg = palette.medium_gray_blue },
@@ -66,7 +66,7 @@ function M.highlight(palette, opts)
     ["@string.special.symbol"] = { fg = palette.medium_gray },
     ["@tag"] = { fg = palette.blue },
     ["@tag.attribute"] = { fg = palette.white },
-    ["@tag.delimiter"] = { fg = palette.white },
+    ["@tag.delimiter"] = { fg = palette.gray },
     ["@type"] = vim.tbl_extend("force", { fg = palette.white }, opts.styles.type),
     ["@type.builtin"] = { fg = palette.white },
     ["@variable"] = vim.tbl_extend(
@@ -78,6 +78,7 @@ function M.highlight(palette, opts)
     ["@variable.field"] = { fg = palette.white },
     ["@variable.parameter"] = { fg = palette.white },
     ["@variable.parameter.reference"] = { fg = palette.white },
+
   }
 end
 
