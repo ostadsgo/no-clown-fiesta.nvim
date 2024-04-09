@@ -5,7 +5,7 @@ function M.highlight(palette, opts)
   return {
     FlashMatch = { fg = palette.cyan, bold = true },
     FlashLabel= { fg = palette.red, bold = true },
-    FlashCurrent = { fg = palette.gray_blue },
+    FlashCurrent = { fg = palette.orange },
     FlashBackdrop = { fg = palette.gray },
   }
 end
